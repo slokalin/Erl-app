@@ -9,7 +9,7 @@ init() ->
                         {4, "Kate", 22, female},
 			{5, "Pedic", 47, male},
 			{6, "Predator", 100, male},
-                        {7, "Ivan", 14, male}]),
+                        {7, "Ivan", 15, male}]),
     ok.
 select() ->
     MS = ets:fun2ms(fun({Id, Name, Age, Gender})
